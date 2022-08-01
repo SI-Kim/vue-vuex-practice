@@ -1,16 +1,21 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Header />
+  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <Footer />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import { Header, Footer } from "./layouts/index";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Header,
+    Footer,
+    HelloWorld,
+  },
+};
 </script>
 
 <style>
@@ -20,6 +25,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
 }
 </style>

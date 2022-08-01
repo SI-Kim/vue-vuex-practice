@@ -1,11 +1,12 @@
 <template>
   <Header />
   <HelloWorld />
+  <InputComponent />
   <Footer />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import { HelloWorld, InputComponent } from "./components/index";
 import { Header, Footer } from "./layouts/index";
 
 export default {
@@ -14,6 +15,7 @@ export default {
     Header,
     Footer,
     HelloWorld,
+    InputComponent,
   },
 };
 </script>

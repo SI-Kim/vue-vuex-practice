@@ -1,6 +1,6 @@
 <template>
   <label
-    >sdf
+    >입력값
     <input />
   </label>
 </template>

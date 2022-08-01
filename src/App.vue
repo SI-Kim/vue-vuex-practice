@@ -1,12 +1,17 @@
 <template>
   <Header />
-  <HelloWorld />
-  <InputComponent />
+  <hello-world />
+  <input-component />
+  <text-area-component />
   <Footer />
 </template>
 
 <script>
-import { HelloWorld, InputComponent } from "./components/index";
+import {
+  HelloWorld,
+  InputComponent,
+  TextAreaComponent,
+} from "./components/index";
 import { Header, Footer } from "./layouts/index";
 
 export default {
@@ -16,6 +21,7 @@ export default {
     Footer,
     HelloWorld,
     InputComponent,
+    TextAreaComponent,
   },
 };
 </script>

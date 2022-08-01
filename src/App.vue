@@ -1,9 +1,11 @@
 <template>
-  <Header />
-  <hello-world />
-  <input-component />
-  <text-area-component />
-  <Footer />
+  <header-box />
+  <section>
+    <hello-world />
+    <input-component />
+    <text-area-component />
+  </section>
+  <footer-box />
 </template>
 
 <script>
@@ -12,13 +14,13 @@ import {
   InputComponent,
   TextAreaComponent,
 } from "./components/index";
-import { Header, Footer } from "./layouts/index";
+import { HeaderBox, FooterBox } from "./layouts/index";
 
 export default {
   name: "App",
   components: {
-    Header,
-    Footer,
+    HeaderBox,
+    FooterBox,
     HelloWorld,
     InputComponent,
     TextAreaComponent,

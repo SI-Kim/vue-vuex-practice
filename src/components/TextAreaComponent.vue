@@ -1,4 +1,8 @@
-<template></template>
+<template>
+  <div>
+    <textarea />
+  </div>
+</template>
 
 <script>
 export default {};

@@ -1,8 +1,10 @@
 <template>
-  <label
-    >입력값
-    <input />
-  </label>
+  <div>
+    <label
+      >입력값
+      <input />
+    </label>
+  </div>
 </template>
 
 <script>

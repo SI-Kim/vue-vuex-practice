@@ -2,7 +2,7 @@
   <div>
     <label
       >입력값
-      <input />
+      <input :value="text" @input="textHandler" />
     </label>
   </div>
 </template>
@@ -16,6 +16,11 @@ export default {
         default: "",
       },
     };
+  },
+  methods: {
+    textHandler(val) {
+      this.text = val;
+    },
   },
 };
 </script>

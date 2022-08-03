@@ -11,10 +11,7 @@
 export default {
   data() {
     return {
-      text: {
-        type: String,
-        default: "",
-      },
+      text: "",
     };
   },
   methods: {

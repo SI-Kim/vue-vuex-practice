@@ -2,8 +2,8 @@
   <header-box />
   <section>
     <hello-world />
-    <input-component />
-    <text-area-component />
+    <input-component class="input-component" />
+    <text-area-component class="text-area-component" />
   </section>
   <footer-box />
 </template>
@@ -33,5 +33,15 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0;
+}
+
+.input-component {
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+
+.text-area-component {
+  margin: 10px 0 10px 0;
+  text-align: center;
 }
 </style>

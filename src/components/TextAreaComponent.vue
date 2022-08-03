@@ -1,6 +1,6 @@
 <template>
   <div>
-    <textarea />
+    <textarea disabled />
   </div>
 </template>
 

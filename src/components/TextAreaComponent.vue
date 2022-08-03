@@ -1,11 +1,18 @@
 <template>
   <div>
-    <textarea disabled />
+    <textarea disabled></textarea>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    text: {
+      type: String,
+      default: "",
+    },
+  },
+};
 </script>
 
 <style>

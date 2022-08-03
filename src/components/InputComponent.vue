@@ -8,7 +8,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      text: {
+        type: String,
+        default: "",
+      },
+    };
+  },
+};
 </script>
 
 <style>

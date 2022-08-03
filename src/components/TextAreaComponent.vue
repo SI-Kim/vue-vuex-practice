@@ -1,6 +1,6 @@
 <template>
   <div>
-    <textarea disabled></textarea>
+    <textarea v-bind="text" disabled />
   </div>
 </template>
 

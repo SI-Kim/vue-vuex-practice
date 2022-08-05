@@ -23,6 +23,13 @@ export default {
     const store = useStore();
     console.log(store.state.text);
   },
+  components: {
+    HeaderBox,
+    HelloWorld,
+    InputComponent,
+    TextAreaComponent,
+    FooterBox,
+  },
 };
 </script>
 

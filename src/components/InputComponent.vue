@@ -15,8 +15,8 @@ export default {
     };
   },
   methods: {
-    textHandler(val) {
-      this.text = val;
+    textHandler(event) {
+      this.text = event.target.value;
     },
   },
 };

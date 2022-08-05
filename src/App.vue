@@ -15,15 +15,6 @@ import {
   TextAreaComponent,
 } from "./components/index";
 import { HeaderBox, FooterBox } from "./layouts/index";
-import { createStore } from "vuex";
-
-const store = createStore({
-  state() {
-    return {
-      text: "",
-    };
-  },
-});
 
 export default {
   name: "App",

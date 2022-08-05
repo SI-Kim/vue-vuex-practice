@@ -9,6 +9,8 @@
 </template>
 
 <script>
+import { setup } from "vue";
+import { useStore } from "vuex";
 import {
   HelloWorld,
   InputComponent,
@@ -17,16 +19,9 @@ import {
 import { HeaderBox, FooterBox } from "./layouts/index";
 
 export default {
-  name: "App",
-  components: {
-    HeaderBox,
-    FooterBox,
-    HelloWorld,
-    InputComponent,
-    TextAreaComponent,
-  },
-  created() {
-    console.log(this.$store.state.text);
+  setup() {
+    const store = useStore();
+    console.log(store.state.text);
   },
 };
 </script>

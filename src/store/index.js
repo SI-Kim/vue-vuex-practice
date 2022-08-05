@@ -5,5 +5,10 @@ export default new createStore({
     return {
       text: "stored text"
     };
+  },
+  mutations: {
+    setText(state, value) {
+      state.text = value;
+    }
   }
 });

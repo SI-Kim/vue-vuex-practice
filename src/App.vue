@@ -26,7 +26,6 @@ export default {
     TextAreaComponent,
   },
   created() {
-    console.log(this.$store);
     console.log(this.$store.state.text);
   },
 };

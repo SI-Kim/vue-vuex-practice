@@ -25,6 +25,9 @@ export default {
     InputComponent,
     TextAreaComponent,
   },
+  created() {
+    console.log(this.$store);
+  },
 };
 </script>
 

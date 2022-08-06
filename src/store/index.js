@@ -3,7 +3,7 @@ import { createStore } from "vuex";
 export default new createStore({
   state() {
     return {
-      text: "stored tttttttttttttext"
+      text: "stored ttttttttttttttttext"
     };
   },
   mutations: {

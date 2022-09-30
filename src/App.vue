@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import { setup } from "vue";
 import { useStore } from "vuex";
 import {
   HelloWorld,

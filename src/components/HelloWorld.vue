@@ -3,8 +3,8 @@
 </template>
 
 <script>
-export default {
-  name: "HelloWorld 123456789101112131415",
+export default { 
+  name: "HelloWorld 12345678910111213141516",
 };
 </script>
 

@@ -3,8 +3,8 @@
 </template>
 
 <script>
-export default { 
-  name: "HelloWorld ",
+export default {
+  name: "HelloWorld 1",
 };
 </script>
 
